@@ -15,7 +15,7 @@ The Service Graph will represent connectivity to external services using the `Pu
 
 ## Analyze Traffic to External Services using Kibana
 
-Kibana can be used to generated a summarized list of FQDNs for a given workload or group of workloads. The list of FQDNs can be incorporated into a `GlobalNetworkSet`
+Kibana can be used to generate a summarized list of FQDNs for a given workload or group of workloads. The list of FQDNs can be incorporated into a `GlobalNetworkSet`
 
 Use the `Top 10 External Domains` visualization to identify the external services the `hipstershop`, `yaobank` and `bookinfo` namespaces communicate to. 
 
