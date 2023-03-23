@@ -1,6 +1,6 @@
 # Analyze Traffic to External Services using Service Graph and Kibana
 
-Kubernetes workloads may communicate with external services external to the cluster. Outbound access should be protected using security policies. Calico `DNS Policy` can grant access to external services using domain names. Refer [DNS Policy](https://docs.tigera.io/v3.14/security/domain-based-policy) for more information on domain matching. 
+Kubernetes workloads may communicate with services external to the cluster. Outbound access should be protected using security policies. Calico `DNS Policy` can grant access to external services using domain names. Refer [DNS Policy](https://docs.tigera.io/v3.14/security/domain-based-policy) for more information on domain matching. 
 
 The Service Graph and Kibana can be used to retrieve a list of domains for individual workloads. Domain names can be added to a `GlobalNetworkSet` and referred to in security policies to grant access to external services. 
 
