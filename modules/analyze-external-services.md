@@ -6,7 +6,7 @@ The Service Graph and Kibana can be used to retrieve a list of domains for indiv
 
 ## Analyze Traffic to External Services using the Service Graph
 
-The Service Graph will represent connectivity to external services using the 'Public network' or 'Private network' icons depending on whether the workload connected to a public or private IP. The name of the `NetworkSet` or `GlobalNetworkSet` will be depicted in the Service Graph if configured for the respective domains. 
+The Service Graph will represent connectivity to external services using the `Public network` or `Private network` icons depending on whether the workload connected to a public or private IP. The name of the `NetworkSet` or `GlobalNetworkSet` will be depicted in the Service Graph if configured for the respective domains. 
 
 > Public services in the Service Graph
 
