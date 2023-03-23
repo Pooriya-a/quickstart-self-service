@@ -789,8 +789,8 @@ spec:
         app: redis-cart
         zone: restricted
     spec:
+      serviceAccountName: redis
       containers:
-        serviceAccountName: redis
       - name: redis
         image: redis:alpine
         ports:
